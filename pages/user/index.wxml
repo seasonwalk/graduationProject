@@ -1,0 +1,15 @@
+<view class="user_info_wrap">
+	<view wx:if="{{userInfo.avatarUrl}}" class="user_img_wrap">
+		<image class="user_bg" src="{{userInfo.avatarUrl}}">
+		</image>
+		<view class="user_info">
+			<image class="user_icon" src="{{userInfo.avatarUrl}}"></image>
+			<view class="user_name">{{userInfo.nickName}}</view>
+		</view>
+	</view>
+	<view wx:else class="user_btn">
+		<view bindtap="getUserProfile">点此登录
+		</view>
+	</view>
+</view>
+

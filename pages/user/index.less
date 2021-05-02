@@ -1,0 +1,47 @@
+.user_info_wrap {
+  height: 45vh;
+  overflow: hidden;
+  background-color: #66ccff;
+  position: relative;
+  .user_img_wrap {
+    position: relative;
+    .user_bg {
+      height: 45vh;
+      filter: blur(10rpx);
+
+    }
+
+    .user_info {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top:20%;
+      text-align: center;
+      .user_icon {
+        width: 150rpx;
+        height: 150rpx;
+        border-radius: 50%;
+
+      }
+
+      .user_name {
+        color: #fff;
+        font-size: 40rpx;
+        margin-top: 40rpx;
+
+      }
+    }
+  }
+  .user_btn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:40%;
+    // border: 1rpx solid orange;
+    color: orange;
+    font-size: 38rpx;
+    padding: 30rpx;
+    border-radius: 50rpx;
+    background-color:paleturquoise;
+  }
+}

@@ -1,0 +1,7 @@
+<button
+ type="primary"
+ open-type="getUserInfo"
+ bindgetuserinfo="getUserProfile"
+>登录
+</button>
+

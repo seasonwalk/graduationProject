@@ -1,0 +1,103 @@
+page {
+  padding-bottom: 90rpx;
+}
+.detail_swiper swiper {
+  height: 60vw;
+  text-align: center;
+}
+.detail_swiper swiper image {
+  width: 60%;
+}
+.goods_price {
+  padding: 15rpx;
+  font-size: 40rpx;
+  font-weight: 600;
+  color: red;
+}
+.goods_name_row {
+  display: flex;
+  border-top: 5rpx solid #e0e3df;
+  border-bottom: 5rpx solid #e0e3df;
+  padding: 10rpx 0;
+}
+.goods_name_row .goods_name {
+  flex: 5;
+  color: #000;
+  font-size: 30rpx;
+  padding: 0 10rpx;
+  margin: 5rpx;
+  border-right: 2rpx solid black;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.goods_name_row .goods_collect {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.goods_name_row .goods_collect .icon {
+  width: 60rpx;
+  align-items: center;
+}
+.goods_name_row .goods_collect .collect_text {
+  font-size: 27rpx;
+}
+.goods_info .goods_info_title {
+  font-size: 32rpx;
+  color: red;
+  font-weight: 600;
+  padding: 20rpx;
+}
+.btm_tool {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 90rpx;
+  background-color: white;
+  display: flex;
+}
+.btm_tool .tool_item {
+  border-top: 1rpx solid #ccc;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 26rpx;
+  position: relative;
+}
+.btm_tool .tool_item button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.btm_tool .btn_cart {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffa500;
+  color: white;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+.btm_tool .btn_buy {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #eb4450;
+  color: white;
+  font-size: 30rpx;
+  font-weight: 600;
+}

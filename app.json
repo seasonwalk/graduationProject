@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/index",
+    "pages/cart/index",
+    "pages/user/index",
+    "pages/search/index",
+    "pages/goods_list/index",
+    "pages/goods_detail/index",
+    "pages/pay/index",
+    "pages/auth/index",
+    "pages/login/index"
+
+
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#66ccff",
+    "navigationBarTitleText": "电子商城",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#66ccff",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/首页.png",
+        "selectedIconPath": "icons/首页-s.png"},
+      {
+        "pagePath": "pages/category/index",
+        "text": "分类",
+        "iconPath": "icons/类别.png",
+        "selectedIconPath": "icons/类别-s.png"},
+      {
+          "pagePath": "pages/cart/index",
+          "text": "购物车",
+          "iconPath": "icons/购物车.png",
+          "selectedIconPath": "icons/购物车-s.png"},
+      {
+            "pagePath": "pages/user/index",
+            "text": "个人中心",
+            "iconPath": "icons/个人.png",
+            "selectedIconPath": "icons/个人-s.png"}
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+    "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+    },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

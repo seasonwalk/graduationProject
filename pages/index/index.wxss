@@ -1,0 +1,29 @@
+.index_cates {
+  display: flex;
+}
+.index_cates navigator {
+  padding: 35rpx;
+  flex: 1;
+  background-color: whitesmoke;
+}
+.index_cates navigator image {
+  width: 100%;
+}
+.index_cates navigator navigator {
+  padding: 0rpx 25rpx;
+  margin: 0;
+  color: orange;
+}
+.index_swiper swiper image {
+  width: 100%;
+}
+.index {
+  background-color: #f2f5f1;
+}
+.index_floor navigator {
+  float: left;
+  width: 50%;
+}
+.index_floor navigator image {
+  width: 100%;
+}

@@ -1,0 +1,39 @@
+<view class="index">
+<!--搜索框 开始-->
+<SearchInput></SearchInput>
+<!--搜索框 结束-->
+<!--首页轮播图-->
+<view class="index_swiper">
+<swiper indicator-dots="{{true}}" indicator-active-color="#6cf" autoplay="{{true}}" circular="{{true}}" interval="5000">
+    <swiper-item 
+    wx:for="{{swiperList}}"
+    wx:key="goods_id">
+        <navigator >
+            <!--img463*217-->
+            <image mode="widthFix" src="{{item.image_src}}">
+            </image>
+        </navigator>
+    </swiper-item>
+</swiper>
+</view>
+<!--首页导航-->
+<view class="index_cates">
+    <navigator
+     wx:for="{{catesList}}"
+     wx:key="name">
+     <image src="{{item.image_src}}" mode="widthFix">
+         
+     </image>
+     <navigator url="">{{item.name}}</navigator>
+    </navigator>
+</view>
+<!--楼层导航-->
+<view class="index_floor"
+wx:for="{{floorList}}"
+wx:key="name">
+    <navigator url="">
+        <image src="{{item.image_src}}" mode="widthFix">
+        </image>
+    </navigator>
+</view>
+</view>
